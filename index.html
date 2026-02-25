@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Learning Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>📚 AI Learning Assistant</h1>
+
+    <textarea id="documentInput" placeholder="Paste your notes here..."></textarea>
+
+    <div>
+      <button onclick="summarize()">Summarize</button>
+      <button onclick="generateQuiz()">Generate Quiz</button>
+    </div>
+
+    <input type="text" id="questionInput" placeholder="Ask a question...">
+    <button onclick="askQuestion()">Ask</button>
+
+    <div id="output" class="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
